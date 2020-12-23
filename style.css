@@ -7,7 +7,7 @@
 body {
 	color: whitesmoke;
 	background: rgba(0, 0, 0, 0.85);
-	font-family: 'Open Sans';
+	font-family: 'Open Sans', sans-serif;
 
 	text-align: center;
 }
@@ -48,7 +48,8 @@ i {
 .container {
 	margin-top: 3.5rem;
 	margin-inline: auto;
-	width: min(90%, 37.5rem);
+	max-width: 37.5rem;
+	width: 90%;
 	border: 1px solid rgba(255, 255, 255, 0.15);
 }
 
